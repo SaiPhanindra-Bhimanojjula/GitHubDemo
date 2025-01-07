@@ -28,43 +28,6 @@ public class Base {
 	public String productCatalogProductDetailsListEndPoint=propertiesReader.getProperty("productDetailsListEndPoint");
 	public String productCatalogProductRegulatoryEndPoint=propertiesReader.getProperty("productRegulatoryEndPoint");
 	public String productCatalogProductDocumentsEndPoint=propertiesReader.getProperty("productDocumentsEndPoint");
-	
-	public String listEndpoint = propertiesReader.getProperty("emarcomBiosBiographyListEndpoint");
-	public String primaryRecycleBinEndpoint = propertiesReader.getProperty("marcomBiosPrimaryRecycleBinEndpoint");
-	public String artAppURL = propertiesReader.getProperty("artURL");
-	public TestUserProvider userProvider = new TestUserProvider();
-	public String insubmitterreview = propertiesReader.getProperty("insubmitterreview");
-	public String readyeditorialreview = propertiesReader.getProperty("readyeditorialreview");
-	public String ineditorialreview = propertiesReader.getProperty("ineditorialreview");
-	public String editorialreviewcompleted = propertiesReader.getProperty("editorialreviewcompleted");
-	public String publishtosp = propertiesReader.getProperty("publishtosp");
-	public String pendingwebpost = propertiesReader.getProperty("pendingwebpost");
-	public String publishtospweb =propertiesReader.getProperty("publishtospweb");
-	public String empname = propertiesReader.getProperty("empname1");
-	public String currentresponseheader = propertiesReader.getProperty("currentresponseheader");
-	public String profworkexpheader = propertiesReader.getProperty("profworkexpheader");
-	public String profdesheader = propertiesReader.getProperty("profdesheader");
-	public String educationheader = propertiesReader.getProperty("educationheader");
-	public String presandpubheader = propertiesReader.getProperty("presandpubheader");
-	public String affiliationsheader = propertiesReader.getProperty("affiliationsheader");
-	public String currentresponse = propertiesReader.getProperty("currentresponse");
-	public String profworkexp = propertiesReader.getProperty("profworkexp");
-	public String profdes = propertiesReader.getProperty("profdes");
-	public String education = propertiesReader.getProperty("education");
-	public String presandpub = propertiesReader.getProperty("presandpub");
-	public String affiliations = propertiesReader.getProperty("affiliations");
-	public String updatename = propertiesReader.getProperty("updatename");
-	public String updatecredential = propertiesReader.getProperty("updatecredential");
-	public String updatetitle = propertiesReader.getProperty("updatetitle");
-	public String updateprodgrpname = propertiesReader.getProperty("updateprodgrpname");
-	public String updateoffice = propertiesReader.getProperty("updateoffice");
-	public String updatephone = propertiesReader.getProperty("updatephone");
-	public String editor = propertiesReader.getProperty("editor");
-	public String editorcomments = propertiesReader.getProperty("editorcomments");
-	public String userfilepath = propertiesReader.getProperty("filepath");
-	public String testdomain = propertiesReader.getProperty("testdomain");
-	public String domain = propertiesReader.getProperty("domain");
-
 	//-----------------------Product Catalog properties---------------------------------------------
 	//Reading data from test data file
 	public String productLandscapeFilePath = propertiesReader.getProperty("productLandscapeFilePath");
