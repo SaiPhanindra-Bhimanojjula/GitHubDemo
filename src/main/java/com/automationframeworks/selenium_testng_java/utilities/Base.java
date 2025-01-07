@@ -52,8 +52,6 @@ public class Base {
 	public String Geography = propertiesReader.getProperty("geography");
 	public String Audience = propertiesReader.getProperty("audience");
 	public String businessPlan = propertiesReader.getProperty("businessPlan");
-	public String businessPlanApproval = propertiesReader.getProperty("businessPlanApproval");
-	public String prototype = propertiesReader.getProperty("prototype");
 
 	//Reading Business Planning test data
 	public String productfinancialfile = propertiesReader.getProperty("productFinancialfile");
